@@ -24,6 +24,15 @@ public class Minion {
 	String getColor() {
 		return color;
 	}
+	
+	void setMaster(String mast) {
+		this.master = mast;
+	}
+	
+	String getMaster() {
+		return master;
+	}
+}
 	//Minion stuart = new Minion("Stuart", 1, "yellow", "");
 	//Minion dave = new Minion("Dave", 2, "yellow", "");
-}
+
